@@ -59,6 +59,7 @@ class XSDConfig {
   @BeanProperty var rebuildChoice: Boolean = true
   @BeanProperty var stringTimestamp: Boolean = false
   @BeanProperty var ignoreHiveKeyword: Boolean = false
+  @BeanProperty var onlyFirstRootElement: Boolean = false
 
   def getXsdFile: String = xsdFile.path
 
